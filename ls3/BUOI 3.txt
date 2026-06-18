@@ -1,0 +1,66 @@
+Buổi 3 jsa18
+Một số trường hợp đặc biệt trong number :
+
+
+Cac kiểu dữ liệu cơ bản trong jvs
+-NaN( Not a number) : Đại diện cho một giá trị không phải là số 
+-Infinity và - Infinity : Đại diện cho các giá trí vô cùng dương và vô cùng âm (1/0 và -1/0)
+
+
+Toán tử trong Js 
+++, Toán tử số học : Thường áp dụng với kiểu dữ liệu Number 
++, 
+-,
+*,
+%: chia lấy dư , 
+**, 
+++, Toán tử gán : Dùng để gán giá trị cho một biến 
+--, Toán tử gán cộn:g +=
+-- , Toán tử gán trừ : -=
+--, Tương tự với phép toán tử *=, /=, %=
+
+
+Toán tử so sánh : là các ký hiệu hoặc từ khóa trong jsa được sử dụng để so sánh hai giá trị với nhau 
++, KQ của toán tử so sánh là : Boolean ( T, F)
++, Khái niệm bl dùng để thực hiện các phép toán logic và trả về KQ là giá trị bl ( T, F)
++,xCHUS Ý : CÁC PHÉP TOÁN TỬ RẤT QUAN TRỌNG TRONG LẬP TRÌNH 
+ĐẶC BIỆT KHI KIỂM TRA ĐIỀU KIỆN VÀ ĐIỀU KIỆN LUỒNG THỰC THI CỦA CHƯƠNG TRÌNH 
+== ( so sánh bằng )  ===( so sánh bằng nghiêm ngặt hơn )  !=( so sánh khác ) !==(so sanh khác nghiêm hơn(
+><><=
+Toán tử logic : Sử dụng để thực hiện các phép toán logic trên các giá trị boolean ( T, F) Các toán tử này giúp chúng ta kiểm tra và kết hợp các điều kiện để từ đó đưa ra các quyết định logic trong chường trình ,.
+
+
+Toán tử AND  : &&
+Toán tử OR : ||
+Toàn tử NOT : !
+
+
+
+
+ƯU ĐIỂM KHI VIẾT NGÔN NGỮ LẬP TRÌNH JSA RA FILE RIÊNG ; 
++, Quản lí mã nguồn dễ hơn ( riêng biệt các ngôn ngữ khác nhau )
++, Tăng tốc độ tải trang : Trình duyệt sẽ loading file JS song song cùng với các file khác 
+j
+CÂU ĐIỆN KIỆN 
++, Câu điều kiện cho phép bạn thực hiện các hành động khác nhau dựa trên các điều kiện khác nhau 
++, Câu lệnh này giúp các bạn kiểm tra một điều kiện và thực thi các khối lệnh tương ứng khi điều kiện đó là True và false 
++, Câu lệnh IF ; Cho phép chúng ta thực hiện các hành động khác nhau  dựa trên các điều kiện khác nhau . các câu lệnh này giúp bạn kiểm tra một điều kiện và thực thi các khối lệnh tương ứng khi điều kiện đó là True Hoặc False 
+CÂU LỆNH ESLE : Dùng để thực thi một khối lệnh khi điều kiện trong câu lệnh if là false 
+câu lệnh else ì : Dùng để tra một điều kiện khác nếu điều kiện đầu tiên là false . Bạn có thể có nhiều câu lệnh else if để kiểm tra nhiều điều kiện khác nhau
+VÒNG LẶP WHILE
++, Vòng lặp trong JS giúp tự động lặp lại một đoạn mã nhiều lần , thay vì viết lại đoạn mã đó bằng tay. Vòng lặp thường dùng để duyệt qua các tập hợp dữ liệu , thực hiện tính toán lặp đi lặp lại, hoặc tạo hiệu ứng trên trang web
+Vòng lăp for : Dùng khi biết số lần cụ thể 
+
+
+For( innitialization ;condition; increment/decrement) {}
+
+
+Vòng lặp While ; Dùng khi chưa biết số lần cụ thể , chỉ dừng khi điều kiện sai \
+whlie(điều kiện) {}
+ Vòng lặp do...while : Luôn thực thi ít nhất 1 lần , sau đó kiểm tra điều kiện.
+do {
+} while( điều kiện);
+
+
+BTVN : XÂY DỰNG MÁY TÍNH CẦM TAY HTML CSS JS ( BOOTTRAP) TÍNH TOÁN DC
+

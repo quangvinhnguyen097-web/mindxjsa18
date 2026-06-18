@@ -1,0 +1,35 @@
+ls06 Hàm
+HÀM(FUCTION)
+-lLà một khối mã được thiết kế để thực  hiện một nhiệm vụ cụ thể
+-Tái sự dụng : Hàm có thể gọi lại nhiều lần ở các nơi khác nhau trong mã 
+-Khai báo hàm : Sử dụng từ khóa function
+
+
+CÁCH KHAI BÁO VÀ GỌI HÀM 
+- Hàm có tên( Function Deleration): ffunction tên Hàm(<Tham số>) {}
+-Hàm ẩn danh( Function Expression) : cost tên Hàm = function () {}
+-Hàm mũi tên (Arrow Function) : const tên Hàm = () => {}
+LƯU Ý 
+----Hàm có tên có thể được trước khi khai báo 
+----Hàm ẩn danh và hãm mũi tên phải được  khai báo trước khi gọi
+----Nếu không gọi hàm, đoạn mã trong hãm không được thực thi
+
+
+Thu thập dữ liệu người dùng thông qua HTML Form 
+1. Tìm hiểu về addEventListener
+      addEentlistener là một phương thức trong JS giúp lắng nghe và xử lí các sự kiện trên trang web
+2. Các sự kiện thường dùng với addenventlisstern
+ Khái niệm về localStrorage
+--Cho phép lưu trữ dữ liệu dưới dạng cặp khóa -- giá trị ̣̣(key-value) trong trình duyệt web của người dùng 
+--Dữ liệu trong localStorge được lưu trữ mà không có thời hạn hết hạn cụ thể, tức là nó sẽ tồn tại ngay cả khi trình duyệt được đóng và mở lại
+--localStorage có thể lưu trữ tối đa 5MB dữ liệu dạng chuỗi ( string)
+ỨNG DỤNG
+-- Lưu thông tin đăng nhập tạm thời
+--Lưu cài đặt người dùng trên website 
+-- Giữ dữ liệu biểu mẫu khi người dùng làm việc 
+LƯU TRỮ DỰ LIỆU VÀO LCST( dữ liệu cục bộ)
+Localstorage.setItem(key, value)
+Định dạng JSON (javasc object notation)
+--là một kiểu dữ liệu tuân theo một quy luât nhất định mà hầu hết các ngôn ngữ lập trình hiện nay đều có thể đọc được ( tiêu chuẩn trao đổi dữ liệu trên website)
++,, json_encode : phương thức dùng để chuyển đổi một mảng hoặc object,... thành string( chuỗi) dữ liệu Json để sử dụng trong database : JSON.STRINGFY()
++, json_decode : Giúp để chuyển đổi một chuỗi dữ liệu JSON sang dạng mảng hoặc object hoặc ,... để sử dụng ở trong code : JSON.PARE()

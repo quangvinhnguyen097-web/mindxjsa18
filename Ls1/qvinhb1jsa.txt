@@ -1,0 +1,51 @@
+Buổi đều học lưới trong thiết kế gia diện 
+giới thiệu displap : grid
+Csss grid là một hệ thống layout  mạnh mẽ giúp sắp xếp nội dung trên trang web theo dạng lưới(grid) . Grid cho phép tạo các hàng và cột columm một cách dễ dàng mà không cần dùng quá nhiều float và flexbox
+flex-box:khi các phần tử chiều cao không bằng nhau các hàng không đồng đều thì gây sự không nhất quán trong bố cục
+Khi  nào sử dụng grid 
+-Khi cần bố cục nhiều hàng và cột
+-Khi muốn căn chỉnh nội dung chính xac theo cô(cell) trong lưới 
+-Khi thiết kế layout phức tạp như dashborad, gallerry
+Các hàng sẽ luôn đều nhau bất  kể chiều cao của các phần tử,  tạo ra một bố cục nhất quán và dễ quản lý hơn .
+ Cú pháp :containner(thẻ cha)-item(Các con dạng block) 
+3. Tìm hiểu về grid sizzing và grid plaecment
+Một số thuộc tính quan trọng
+a. Grid-template-columns & grid-teamplate-rows
+-- Xác định số lượng cột và hàng trong grid
+.(2, 1fr)
+chia làm 2 hàng và lặp lại 1 lần 
+1fr 2fr 
+kích thước của hàng 2 gấp đôi kích thước hàng 1
+b.Justify-content & align-content
+--Justify-content : căn giữa theo chiều ngang
+--Justofy-content : căn giữa theo chiều dọc
+c.grid -columns và grid rows 
+--- grid-columns : 1/3 : Chiếm từ cột 1 đến cột 3 
+---grid rows : 1/3: chiếm từ hàng 1 đến hàng 3 
+Grid sizing : Khi sử dụng CSS grid , có thể kiểm soát được kích thước của các hàng là rows và các cột là columns = nhiều đơn vị khác nhau . Grid sizing giúp tạo một bố cụ linh hoạt dễ dàng ddieuf chỉnh phù hợp với màn hình thiết bị  (RWD)
+Các cách xác định kích thước trong grid:
+kích thước cố điịnh (px,em,rem,%)- Khi muốn thiết kế có kích thước cố định không thay đổi theo màn hình 
+Kích thước linh hoạt(fr-fraction-phần tỷ lệ ) - chia tỷ lệ kích thước theo tổng không gian có sẵn - Ứng dụng  khi chung s ta muốn các cột và các hàng được mở rộng một cách linh hoạt theo màn hình
+Tự động điểu chỉnh (auto) - cột hoặc hàng sẽ có kích thước dựa vào nội dung ở bên trong - Ứng dụng khi : Sử dụng khi bạn muốn cột.hàng thay đổi theo nội dung mà không cần đặt trước kích thước 
+Tối đa - Tối thiểu(min-max) Giúp cho cột hoặc hàng không nhỏ hơn hoặc lớn hơn một cái giá trị nhất định - Ứng dụng : Khi chúng ta muốn có kích thước linh hoạt nhưng không vượt quá giới hạn nhất định
+Lặp lại cột hoặc hàng (repeat()) - Muốn tạo ra nhiều cột/hàng có kích thước giống nhau
+Các thuộc tính thược về grid sizing 
+---Gird teamplate-columns : auto auto auto auto ;
+------4 cột - mỗi cột có kicks thước tự động (auto)
+------auto : kích thước của mỗi cột sẽ được xác định tự động dựa trên nội dung của cột đó 
+---Grid -columns -gap : 10px ;
++, định nghĩa khoảng cách giữa các cột trong cái lưới là 10pixel
+grid - rows- gap 
+Định nghĩa khoảng cách giữa các hàng trong cái lưới là 25pixel
+Có thể viết gọn như sau grid-gap : 25px 10px;( hàng  trước cột)
+Câu hỏi " Khi sắp xếp phaand tử trong trang web , làm thế nào để có vị trí và kích thước chính xác ?
+--Điều chỉnh kích thước width và height trong mỗi ỉteam
+-Sử dụng postion
+Grid Place ment là kỹ thuật xác định vị trí của các phần tử trong Css Grid layout thay vì trình duyệt tự động sắp xếp , có thể định rõ phẩn tử sẽ xuất hiện ở hàng nào, cột nào trong grid container
+Các phương pháp đặt trong phẩn tử trong grid
+--Định vị theoo hàng và cột (grd-coulum, gird -row)
+--Chỉ định vị trí theo số dòng ( grd-colum-start, grid-columns-end, grd-row-start, grid-row-end)
+--Dùng soan để keeos dài phần tử 
+--Sử dụng grid-area để đặt phẩn tử trong lưới 
+4. Thực hiện xây dựng dự án Mondrain- Style painting
+

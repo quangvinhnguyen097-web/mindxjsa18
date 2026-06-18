@@ -1,0 +1,47 @@
+Buổi 2 
+Javascript giúp trang web :
+-Hiển thị thông tin tùy theo hành động của người dùng 
+- Xử lí sự kiện ( Vd : Nhấn nút, nhập dữ liệu)
+-Tạo hiệu ứng động như popup, slider 
+-Giao tiếp với máy chủ để cập nhật dữ liệu mà không cần tải lại trang (fectch  API, AJax, )
+KHÁI NIỆM VỀ BIẾN Ở TRONG JAVASCRIPT
+--Biến (Variable) 
++, Lưu trữ dữ liệu ( Số , chuỗi ký tự , đối tượng)
+Quy tắc đặt tên biến 
++, Hợp lệ 
+-Tên chỉ chứa chữ cái (a-z, A-Z), số 0-9, dấu gạch dưới _Hoặc dấu $
+-Luôn luôn không bằng đầu bằng số
+-JS phân biệt chữ hoa, chũ thường(age và Age khác nhau)
+-Sử dụng quy tắc camlCase cho biến nhiều từ (UserName)
++, Không hợp lệ 
+-Không chứa kỹ tứ đặc biệt( user@name)
+-Không chứa khoảng trắng(user name)
+-Không đặt trùng với từ khóa trong javascipt(var , let, if, fuction,...)
+LƯU ÝYYYYYYYYY
+-LET : Dùng để khai báo biến có thể thay đổi được
+-const : Biến hằng số , không thể thay đổi giá trị
+-var- Hạn chế tránh lỗi  về phạm vi biến (scope)
+
+
+CÁC KIỂU DỮ LIỆU CƠ BẢN TRONG JAVASCRIPT
+
+
+CÁC THAO TÁC CƠ BẢN VỚI MỘT VÀI CÁC KIỂU DỮ LIỆU
+
+
+TOÁN TỬ TRONG JAVASCRIPT
+
+
+CÂU ĐIỀU KIỆN
+
+
+VÒNG LẶP
+
+
+DANH SÁCH TRONG JS (ARRAY-MẢNG)
+
+
+ĐỐI TƯỢNG TRONG JS
+
+
+
